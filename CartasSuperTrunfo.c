@@ -11,7 +11,7 @@ int main(){
     float pib1;
     int pontotu1;
 
-    // Códigos para entrada de dados do usuário.
+    // Códigos para entrada de dados da carta.
 
     printf("Vamos cadastrar sua carta!\n");
     printf("\n");
@@ -50,7 +50,7 @@ int main(){
     float pib2;
     int pontotu2;
 
-    // Códigos para entrada de dados do usuário.
+    // Códigos para entrada de dados da carta.
 
     printf(" Agora vamos cadastrar sua segunda carta!\n");
     printf("\n");
