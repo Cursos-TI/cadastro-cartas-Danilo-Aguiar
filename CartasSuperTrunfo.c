@@ -134,6 +134,8 @@ int main(){
 
     // Variáveis de comparação
 
+    /*
+
     int populacao =  populacao1 > populacao2;
     int area = (float)area1 > area2;
     int pib = (float)pib1 > pib2;
@@ -142,13 +144,14 @@ int main(){
     int PIBpercap = (float)PIBpercap1 > PIBpercap2;
     int superpoder = superpoder1 > superpoder2;
 
+    */
     
-
     // Comparação 
     printf("----------BATALHA---------");
     printf("\n");
     printf("\n");
 
+    /*
     printf("População: Carta 1 Venceu? %d\n", populacao);
     printf("Área: Carta 1 Venceu? %d\n", area);
     printf("PIB: Carta 1 Venceu? %d\n", pib);
@@ -157,6 +160,64 @@ int main(){
     printf("PIB Per Capita: Carta 1 Venceu? %d\n", PIBpercap);
     printf("Super Poder: Carta 1 Venceu? %d", superpoder);
 
+    */
+
+
+    // Frases prontas
+    char Carta1[50] = "Carta 1 venceu!";
+    char Carta2[50] = "Carta 2 venceu!";
+
+    // Comparação com if
+
+    if (populacao1 > populacao2){
+        printf("População: %s\n", Carta1);
+
+    } else {
+        printf("População: %s\n", Carta2);
+    }
+
+    if (area1 > area2){
+        printf("Área: %s\n", Carta1);
+
+    } else {
+        printf("Área: %s\n", Carta2);
+    }
+
+    if (pib1 > pib2){
+        printf("PIB: %s\n", Carta1);
+    } else{
+        printf("PIB: %s\n", Carta2);
+    }
+
+    if (pontotu1 > pontotu2){
+        printf("Ponto Turístico: %s\n", Carta1);
+
+    } else{
+        printf("Ponto Turístico: %s\n", Carta2);
+    }
+
+    if (dpop1 < dpop2){
+        printf("Densidade Populacional: %s\n", Carta2);
+
+    } else {
+        printf("Densidade Populacional: %s\n", Carta1);
+    }
+
+    if (PIBpercap1 > PIBpercap2){
+        printf("PIB Per Capita: %s\n", Carta1);
+
+    } else{
+        printf("PIB Per capita: %s\n", Carta2);
+    }
+
+    if (superpoder1 > superpoder2){
+        printf("Super Poder: %s\n", Carta1);
+
+    } else{
+        printf("Super Poder: %s\n", Carta2);
+    }
+    
+    
 
     return 0;
 
